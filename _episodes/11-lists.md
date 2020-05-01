@@ -29,6 +29,8 @@ keypoints:
     *   Contained within square brackets `[...]`.
     *   Values separated by commas `,`.
 *   Use `len` to find out how many values are in a list.
+    *   Other programs spell out 'length' to refer to this function but Python's function is shortened
+    *   Only strings have a length
 
 ~~~
 temperatures = [17.3, 17.5, 17.7, 17.5, 17.6]
@@ -89,7 +91,7 @@ temperatures has become: [16.5, 17.5, 17.7, 17.5, 17.6, 17.9, 18.2]
 {: .output}
 
 *   `append` is a *method* of lists.
-    *   Like a function, but tied to a particular object.
+    *   A *method* operates like a function, but tied to a particular object.
 *   Use `object_name.method_name` to call methods.
     *   Deliberately resembles the way we refer to things in a library.
 *   We will meet other methods of lists as we go along.
